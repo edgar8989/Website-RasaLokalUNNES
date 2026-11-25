@@ -1,0 +1,6 @@
+Integrasi Rasa Lokal dengan database ERD Eric.
+Target database dari .env.local: umkm_ayam_geprek.
+Migrasi tambahan: database/migration-eric.sql.
+Migrasi tidak menghapus data; menambahkan kolom pendukung dan tabel pembelian/pengeluaran.
+API memakai tabel inti ERD: kategori, produk, pelanggan, pesanan, detail_pesanan,
+pembayaran, pemasok, bahan_baku, resep.
